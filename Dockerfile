@@ -22,6 +22,7 @@ RUN npm config set registry http://registry.npmjs.org/ && \
     npm install -g --no-optional gulp-minify-css@1.2.0 && \
     npm install -g --no-optional gulp-uglify@1.2.0 && \
     npm install -g --no-optional gulp-jshint@1.11.2 && \
+    npm install -g --no-optional jshint-stylish@2.0.1 && \
     npm install -g --no-optional gulp-compass@2.1.0 && \
     npm install -g --no-optional gulp-requirejs-optimize@0.1.3 && \
     npm install -g --no-optional gulp-modulizr@0.0.2
