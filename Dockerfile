@@ -16,10 +16,12 @@ RUN apt-get update -y && \
 RUN npm config set registry http://registry.npmjs.org/ && \
     npm install -g --no-optional bower@1.4.1 && \
     npm install -g --no-optional gulp@3.8.11 && \
+    npm install -g --no-optional gulp-filesize@0.0.6 && \
     npm install -g --no-optional gulp-copy@0.0.2 && \
     npm install -g --no-optional gulp-bower@0.0.10 && \
     npm install -g --no-optional gulp-minify-css@1.2.0 && \
     npm install -g --no-optional gulp-uglify@1.2.0 && \
+    npm install -g --no-optional gulp-jshint@1.11.2 && \
     npm install -g --no-optional gulp-compass@2.1.0 && \
     npm install -g --no-optional gulp-requirejs-optimize@0.1.3 && \
     npm install -g --no-optional gulp-modulizr@0.0.2
